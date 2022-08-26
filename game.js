@@ -92,7 +92,7 @@ function mainLoop() {
             }
         }
         panel.onclick=function(){
-                panel.setAttribute("class", "box");
+                panel.setAttribute("class", "flashing");
             setTimeout(() => {
                 panel.setAttribute("class", "hidden");
                 }, 250);
